@@ -76,7 +76,8 @@
     <div class="container-fluid position-relative p-0" id="Home">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
             <a href="index.html" class="navbar-brand p-0">
-                <h1 class="m-0">&lt;/&gt; devXcodes</h1>
+                <!-- <h1 class="m-0">&lt;/&gt; devXcodes</h1> -->
+                <img src="img/logo.png" alt="devXcodes" style="width: 100px;">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
@@ -152,7 +153,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="text-white mb-0">Yrs. of Experience</h5>
-                            <h1 class="text-white mb-0" data-toggle="counter-up">2</h1>
+                            <h1 class="text-white mb-0" data-toggle="counter-up">3</h1>
                         </div>
                     </div>
                 </div>
@@ -165,7 +166,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="text-primary mb-0">Happy Clients</h5>
-                            <h1 class="mb-0" data-toggle="counter-up">9</h1>
+                            <h1 class="mb-0" data-toggle="counter-up">15</h1>
                         </div>
                     </div>
                 </div>
@@ -178,7 +179,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="text-white mb-0">Projects Done</h5>
-                            <h1 class="text-white mb-0" data-toggle="counter-up">15</h1>
+                            <h1 class="text-white mb-0" data-toggle="counter-up">22</h1>
                         </div>
                     </div>
                 </div>
@@ -408,6 +409,65 @@
     </div>
      Team End -->
 
+
+     <!-- Projects Start -->
+    <div class="container-fluid py-5 wow fadeInUp" id="Projects" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Projects</h5>
+                <h1 class="mb-0">Our Recent Projects</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="project-item bg-light rounded overflow-hidden">
+                        <div class="project-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/project-1.png" alt="green-villa-project">
+                            <div class="project-overlay">
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded w-100" href=""><i
+                                        class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center py-4">
+                            <h4 class="text-primary">Green Vlila</h4>
+                            <p class="m-0">Resort business website</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div class="project-item bg-light rounded overflow-hidden">
+                        <div class="project-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/project-2.png" alt="">
+                            <div class="project-overlay">
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded w-100" href="https://devschool.edu.lk/"><i
+                                        class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center py-4">
+                            <h4 class="text-primary">Dev School</h4>
+                            <p class="m-0">A Blog website</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                    <div class="project-item bg-light rounded overflow-hidden">
+                        <div class="project-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/project-3.png" alt="">
+                            <div class="project-overlay">
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded w-100" href=""><i
+                                        class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center py-4">
+                            <h4 class="text-primary">DL Hardware Store</h4>
+                            <p class="m-0">Business & Product Showcase website</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects End -->
+
     <!-- Testimonial Start -->
     <div class="container-fluid py-5 wow fadeInUp" id="Testimonials" data-wow-delay="0.1s">
         <div class="container py-5">
@@ -430,7 +490,7 @@
                         dexterity in all areas. They paid loads of attention to detail and ensured that every
                         element met my satisfaction. Most critically they organised the work very systematically
                         ensuring that everything would be completed within the stipulated timeframe.
-                        Am very grateful for their timely support which I couldn’t have done without.
+                        Am very grateful for their timely support which I couldn't have done without.
                     </div>
                 </div>
                 <div class="testimonial-item bg-light my-4">
@@ -513,30 +573,30 @@
                 <div class="col-lg-5">
                     <div class="bg-primary rounded h-100 d-flex align-items-center p-5 wow zoomIn"
                         data-wow-delay="0.9s">
-                        <formid="contactForm">
+                        <form action="https://formsubmit.co/devxcodes@gmail.com" method="POST" id="contactForm">
                             <div class="row g-3">
                                 <div class="col-xl-12">
-                                    <input type="text" class="form-control bg-light border-0" placeholder="Your Name"
+                                    <input type="text" name="name" class="form-control bg-light border-0" placeholder="Your Name"
                                         style="height: 55px;">
                                 </div>
                                 <div class="col-12">
-                                    <input type="email" class="form-control bg-light border-0" placeholder="Your Email"
+                                    <input type="email" name="email" class="form-control bg-light border-0" placeholder="Your Email"
                                         style="height: 55px;">
                                 </div>
                                 <div class="col-12">
-                                    <select class="form-select bg-light border-0" style="height: 55px;">
+                                    <select name="service" class="form-select bg-light border-0" style="height: 55px;">
                                         <option selected>Select A Service</option>
-                                        <option value="1">Development</option>
-                                        <option value="2">Quote</option>
-                                        <option value="3">Other</option>
+                                        <option value="Development">Development</option>
+                                        <option value="Quote">Quote</option>
+                                        <option value="Other">Other</option>
                                     </select>
                                 </div>
                                 <div class="col-12">
-                                    <textarea class="form-control bg-light border-0" rows="3"
+                                    <textarea name="message" class="form-control bg-light border-0" rows="3"
                                         placeholder="Message"></textarea>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-dark w-100 py-3" type="submit">Request A Quote</button>
+                                    <button class="btn btn-dark w-100 py-3" type="submit">Submit</button>
                                 </div>
                             </div>
                         </form>
