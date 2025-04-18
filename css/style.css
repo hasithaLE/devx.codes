@@ -379,11 +379,15 @@ h6,
 
 .testimonial-carousel .owl-item .testimonial-item {
     transition: .5s;
+    margin: 10px;
+    border-radius: 25px;
+    height: 550px;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item {
     background: #FFFFFF !important;
     box-shadow: 0 0 30px #DDDDDD;
+    border-radius: 25px;
 }
 
 
